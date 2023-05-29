@@ -1,6 +1,6 @@
 import { ERROR_CHECK_TOKEN, RESPONSE_CHECK_TOKEN, } from "../type";
 const initalState = {
-    status: false,
+    payload: false,
     error: null,
 };
 
@@ -9,7 +9,7 @@ const checkSignInReducer = (state = initalState, action) => {
         case RESPONSE_CHECK_TOKEN:
             return{
                 ...state,
-                status: action.payload
+                payload: action.payload
             }
         case ERROR_CHECK_TOKEN: 
             return {
