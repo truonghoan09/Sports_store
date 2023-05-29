@@ -1,0 +1,115 @@
+.background{
+    overflow-x: hidden !important;
+    .containerGrid1{
+        display: grid;
+        margin: 0rem 10rem;
+        padding-top: 2rem;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        .content1{
+            align-self: center;
+            .title {
+                text-align: center;
+                font-size: larger;
+                font-weight: 500;
+            }
+            padding: 0 3rem;
+            grid-column: 1;
+        }
+        .image1{
+            grid-column: 2;
+            max-height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+    }
+    .containerGrid2{
+        display: grid;
+        margin: 0rem 10rem;
+        padding-top: 2rem;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        .content2{
+            align-self: center;
+            .title {
+                text-align: center;
+                font-size: larger;
+                font-weight: 500;
+            }
+            padding: 0 3rem;
+            grid-column: 2;
+        }
+        .image2{
+            padding: 0 1rem;
+            grid-row: 1;
+            grid-column: 1;
+            max-height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+    }
+    .containerGrid3{
+        display: grid;
+        margin: 0rem 10rem;
+        padding-top: 2rem;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        .content3{
+            align-self: center;
+            .title {
+                text-align: center;
+                font-size: larger;
+                font-weight: 500;
+            }
+            padding: 0 3rem;
+            grid-column: 1;
+        }
+        .image3{
+            grid-column: 2;
+            grid-row: 1;
+            max-height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+    }
+    .containerGrid3
+    .content2{
+        .title {
+            text-align: center;
+            font-size: larger;
+            font-weight: 500;
+        }
+        padding: 0 3rem;
+        grid-column: 2;
+    }
+    
+    .content3{
+        .title {
+            text-align: center;
+            font-size: larger;
+            font-weight: 500;
+        }
+        padding: 0 3rem;
+        grid-column: 1;
+    }
+    .containerGrid1 
+
+    .containerGrid2 .image2{
+            grid-column: 1;
+            max-height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+    .containerGrid3 .image3{
+        grid-column: 2;
+        max-height: 25rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}

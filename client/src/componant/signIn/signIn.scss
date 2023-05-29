@@ -1,0 +1,152 @@
+.gradient-custom-2 {
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #4172e4, #68afd8, #39d0e7, #3ea851);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #4172e4, #68afd8, #39d0e7, #49dcba);
+    }
+    
+    @media (min-width: 768px) {
+        .gradient-form {
+            height: 100vh !important;
+        }
+    }
+    @media (min-width: 769px) {
+        .gradient-custom-2 {
+            border-top-right-radius: .3rem;
+            border-bottom-right-radius: .3rem;
+        }
+    }
+
+    .container {
+        display: flex;
+        align-content: center;
+    }
+
+    .container_sign{
+        margin-top: 12vh;
+        margin-bottom: 10vh;
+        width: 60vw;
+    }
+
+   .waningNotice {
+    margin-top: 0.4rem;
+    color: red;
+    font-size: 0.8rem;
+   }
+
+// .containerComponant{
+//     height: 100vmin;
+//     display: flex;
+//     .contentLeft {
+//         height: 93vh;
+//         font-size: 25px;
+//         width: 30vw;
+//         background-color: rgb(120, 101, 233);
+//         background-image: linear-gradient( 98rad, rgb(164, 153, 229), rgb(28, 175, 104) );
+//         color: white;
+//         padding-left: 50px;
+//         padding-top: 50px;
+//         padding-right: 30px;
+//         // margin-top: 1rem;
+//         // margin-left: 1em;
+//         box-shadow: 2rem 1.5rem 2em 1px rgb(127, 163, 161);
+//         h4 {
+//             .signUp{
+//                 color:rgb(46, 118, 233)
+//             }
+//         }
+//     }
+//     .contentRight {
+//         width: 70vw;
+//         display: flex;
+//         justify-content: center;
+//         align-self: center;
+//         .container_from_sign_in {
+//             display: flex;
+//             padding: 15px;
+//             border-radius: 5px;
+//             flex-direction: column;
+//             width: 30vw;
+//             border: 2px groove rgb(207, 187, 187);
+//             gap: 15px;
+//             box-shadow: 5px 10px 20px 12px  rgb(214, 201, 201);
+//             .title{
+//                 font-size: 30px;
+//                 font-weight: 450;
+//             }
+//             label {
+//                 display: flex;
+//                 flex-direction: column;
+//                 gap: 5px;
+//                 font-size: 18px;
+//                 input{
+//                     outline: none;
+//                     height: 25px;
+//                     font-size: 18px;
+//                     padding : 2px 10px;
+//                     border: solid rgb(205, 215, 205) 1px;
+//                     border-radius: 4px;
+//                 }
+//                 .comment{
+//                     font-size: 13px;
+//                     padding-left: 15px;
+//                     color: red;
+//                 }
+//                 .container_password {
+//                     display: flex;
+//                     gap: 10px;
+//                     input {
+//                         width: 80%;
+//                         border: solid rgb(205, 215, 205) 1px;
+//                     }
+//                     div {
+//                         width: 20%;
+//                         height: 26px;
+//                         border-radius: 2px;
+//                         div{
+//                             font-size: 15px;
+//                             width: 100%;
+//                             text-align: center;
+//                             line-height: 26px;
+//                         }
+//                         div:hover{
+//                             cursor: pointer;
+//                             background-color: rgb(245, 239, 231);
+//                             color: rgb(114, 180, 235);
+//                         }
+//                     }
+//                     .isShow {
+//                         border: solid 2px rgb(250, 207, 34);
+//                     }
+//                     .isHide {
+//                         border: solid 2px rgb(46, 118, 233)
+//                     }
+//                 }
+//             }
+//             .SigninButton{
+//                 align-self: end;
+//                 margin-right: 20px;
+//                 margin-top: 10px;
+//                 margin-bottom: 10px;
+//                 scale: 1.2;
+//                 height: 30px;
+//                 width: 90px;
+//                 background: rgb(31, 110, 219);
+//                 border-radius: 3px;
+//                 text-align: center;
+//                 line-height: 25px;
+//                 color: white;
+//             }
+//             .SigninButton:hover {
+//                 background-color: rgb(68, 135, 227);
+//                 cursor: pointer;
+//             }
+//             .SigninButton:active {
+//                 background-color: rgb(97, 153, 177);
+//             }
+//         }
+//     }
+    
+// }

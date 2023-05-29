@@ -1,0 +1,91 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container_sign_up{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 450px;
+        border: 1px rgb(206, 202, 202) solid;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .title{
+            font-size: 25px;
+            padding-top: 0px;
+        }
+        .blockInput{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input {
+                outline: none;
+                border: solid rgb(203, 198, 198) 1px;
+                height: 30px;
+                padding: 0 10px;
+            }
+            .notice {
+                color: red;
+                font-size: 11px;
+            }
+            .container_password {
+                display: flex;
+                gap: 10px;
+                input {
+                    width: 80%;
+                    border: solid rgb(205, 215, 205) 1px;
+                }
+                div {
+                    width: 20%;
+                    height: 28px;
+                    border-radius: 2px;
+                    div{
+                        font-size: 15px;
+                        width: 100%;
+                        text-align: center;
+                        line-height: 26px;
+                    }
+                    div:hover{
+                        cursor: pointer;
+                        background-color: rgb(245, 239, 231);
+                        color: rgb(114, 180, 235);
+                    }
+                }
+                .isShow {
+                    border: solid 2px rgb(250, 207, 34);
+             }
+                .isHide {
+                    border: solid 2px rgb(46, 118, 233);
+                }
+            }
+        }
+        .note{
+            .navL{
+                color : rgb(46, 118, 233);
+                text-decoration: none;
+            }
+        }
+        .butSignUp {
+            height: 30px;
+            width: 80px;
+            background-color: rgb(31, 110, 219);
+            border-radius: 3px;
+            color: white;
+            text-align: center;
+            line-height: 25px;
+            align-self: flex-end;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .butSignUp:hover {
+            background-color: rgb(68, 135, 227);
+        }
+        .butSignUp:active {
+            background-color: rgb(97, 153, 177);
+        }
+    }
+
+}
